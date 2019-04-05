@@ -8,6 +8,9 @@ import ch.tagcloud.www.model.User;
 import ch.tagcloud.www.repository.RoleRepository;
 import ch.tagcloud.www.repository.UserRepository;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.HashSet;
 import java.util.List;
 
@@ -19,9 +22,14 @@ public class UserServiceImpl implements UserService {
     private RoleRepository roleRepository;
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
+    
+    private static Logger logger = LogManager.getLogger(UserServiceImpl.class);
 
     @Override
     public void save(User user) {
+    	
+    	logger.info("Save user: " + user.getMail());
+    	
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         // user.setRoles(new HashSet<>(roleRepository.findAll()));
         userRepository.save(user);
@@ -29,6 +37,8 @@ public class UserServiceImpl implements UserService {
     
     @Override
     public void update(User user) {
+    	
+    	logger.info("update user: " + user.getMail());
 
         User userFromDb = userRepository.findByMail(user.getMail());
 
@@ -43,11 +53,17 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findByMail(String mail) {
+    	
+    	logger.info("Find user by mail: " + mail);
+    	
         return userRepository.findByMail(mail);
     }
     
     @Override
     public List<User> findAll() {
+    	
+    	logger.info("Find all users");
+    	
     	return userRepository.findAll();
     }
 }

@@ -2,6 +2,8 @@
 
 package ch.tagcloud.www.service;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -22,6 +24,8 @@ import java.util.Set;
 public class UserDetailsServiceImpl implements UserDetailsService {
 	@Autowired
 	private UserRepository userRepository;
+	
+	private static Logger logger = LogManager.getLogger(UserDetailsServiceImpl.class);
 
 	@Override
 	@Transactional(readOnly = true)
@@ -34,9 +38,13 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 		try {
 		for (Role role : user.getRoles()) {
 			
+				logger.info("Grand authorities for user: " + user.getMail());
+			
 				grantedAuthorities.add(new SimpleGrantedAuthority(role.getName()));
 			}
 		} catch (java.lang.NullPointerException exception) {
+			
+			logger.info("No roles found for user: " + user.getMail() + " Assigne role ROLE_DEFAULT");
 			
 			// Assign role ROLE_DEFAULT when no role is defined after registration
 			grantedAuthorities.add(new SimpleGrantedAuthority("ROLE_DEFAULT"));

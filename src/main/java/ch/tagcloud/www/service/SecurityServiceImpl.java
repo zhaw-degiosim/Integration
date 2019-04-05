@@ -1,7 +1,5 @@
 package ch.tagcloud.www.service;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -9,6 +7,9 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Service
 public class SecurityServiceImpl implements SecurityService{
@@ -18,7 +19,7 @@ public class SecurityServiceImpl implements SecurityService{
     @Autowired
     private UserDetailsService userDetailsService;
 
-    private static final Logger logger = LoggerFactory.getLogger(SecurityServiceImpl.class);
+    private static final Logger logger = LogManager.getLogger(SecurityServiceImpl.class);
 
     @Override
     public String findLoggedInUsername() {
@@ -39,7 +40,7 @@ public class SecurityServiceImpl implements SecurityService{
 
         if (usernamePasswordAuthenticationToken.isAuthenticated()) {
             SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-            logger.debug(String.format("Auto login %s successfully!", mail));
+            logger.info(String.format("Auto login %s successfully", mail));
         }
     }
 }
