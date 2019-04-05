@@ -1,0 +1,134 @@
+2019-04-05 08:34:46.286  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 08:34:46.344  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 2 repository interfaces.
+2019-04-05 08:34:46.670  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d93d708] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:34:46.692  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8d14243a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:34:47.005  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 08:34:47.019  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:34:47.029  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 08:34:47.030  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 08:34:47.039  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 08:34:47.166  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 08:34:47.166  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1554 ms
+2019-04-05 08:34:47.544  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 08:34:47.578  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 08:34:47.627  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 08:34:47.675  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 08:34:47.676  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 08:34:47.773  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 08:34:47.875  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 08:34:48.327  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 08:34:49.006  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 08:34:49.010  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 08:34:49.055  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.021s)
+2019-04-05 08:34:49.063  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 08:34:49.063  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 08:34:49.195  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e85e3f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2df71be0, org.springframework.security.web.header.HeaderWriterFilter@97b5e6a, org.springframework.security.web.csrf.CsrfFilter@2c2aab92, org.springframework.security.web.authentication.logout.LogoutFilter@553fbe94, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e36bc01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fef1e6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4387d2f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@195498aa, org.springframework.security.web.session.SessionManagementFilter@c754401, org.springframework.security.web.access.ExceptionTranslationFilter@73da7f08, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a72e2e8]
+2019-04-05 08:34:49.344  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 08:34:49.381  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 08:34:49.541  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 08:34:50.044  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:34:50.061  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-05 08:38:49.341  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-05 08:38:49.345  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-05 08:38:49.348  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 08:38:49.351  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-05 08:38:49.354  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-04-05 08:41:41.430  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 08:41:41.502  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 2 repository interfaces.
+2019-04-05 08:41:41.839  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd445d31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:41:41.856  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$4cc4aa63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:41:42.199  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 08:41:42.211  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:41:42.219  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 08:41:42.219  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 08:41:42.226  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 08:41:42.319  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 08:41:42.320  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1660 ms
+2019-04-05 08:41:42.726  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 08:41:42.762  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 08:41:42.815  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 08:41:42.866  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 08:41:42.868  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 08:41:42.972  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 08:41:43.085  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 08:41:43.595  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 08:41:44.279  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 08:41:44.283  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 08:41:44.350  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.025s)
+2019-04-05 08:41:44.358  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 08:41:44.358  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 08:41:44.502  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a3c99f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@e0847a9, org.springframework.security.web.header.HeaderWriterFilter@4b7ab7ab, org.springframework.security.web.csrf.CsrfFilter@25d9291a, org.springframework.security.web.authentication.logout.LogoutFilter@67a6a2d0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a55e82a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@92e2c93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24fef542, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16b7e04a, org.springframework.security.web.session.SessionManagementFilter@39acd1f1, org.springframework.security.web.access.ExceptionTranslationFilter@223cbf0d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f6fd101]
+2019-04-05 08:41:44.657  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 08:41:44.697  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 08:41:44.865  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 08:41:45.380  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:41:45.398  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
