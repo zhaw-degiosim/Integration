@@ -1,0 +1,822 @@
+2019-04-05 08:34:46.286  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 08:34:46.344  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 2 repository interfaces.
+2019-04-05 08:34:46.670  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d93d708] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:34:46.692  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8d14243a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:34:47.005  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 08:34:47.019  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:34:47.029  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 08:34:47.030  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 08:34:47.039  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 08:34:47.166  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 08:34:47.166  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1554 ms
+2019-04-05 08:34:47.544  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 08:34:47.578  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 08:34:47.627  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 08:34:47.675  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 08:34:47.676  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 08:34:47.773  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 08:34:47.875  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 08:34:48.327  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 08:34:49.006  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 08:34:49.010  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 08:34:49.055  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.021s)
+2019-04-05 08:34:49.063  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 08:34:49.063  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 08:34:49.195  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e85e3f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2df71be0, org.springframework.security.web.header.HeaderWriterFilter@97b5e6a, org.springframework.security.web.csrf.CsrfFilter@2c2aab92, org.springframework.security.web.authentication.logout.LogoutFilter@553fbe94, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e36bc01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fef1e6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4387d2f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@195498aa, org.springframework.security.web.session.SessionManagementFilter@c754401, org.springframework.security.web.access.ExceptionTranslationFilter@73da7f08, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a72e2e8]
+2019-04-05 08:34:49.344  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 08:34:49.381  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 08:34:49.541  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 08:34:50.044  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:34:50.061  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-05 08:38:49.341  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-05 08:38:49.345  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-05 08:38:49.348  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 08:38:49.351  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-05 08:38:49.354  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-04-05 08:41:41.430  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 08:41:41.502  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 2 repository interfaces.
+2019-04-05 08:41:41.839  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd445d31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:41:41.856  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$4cc4aa63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 08:41:42.199  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 08:41:42.211  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:41:42.219  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 08:41:42.219  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 08:41:42.226  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 08:41:42.319  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 08:41:42.320  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1660 ms
+2019-04-05 08:41:42.726  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 08:41:42.762  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 08:41:42.815  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 08:41:42.866  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 08:41:42.868  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 08:41:42.972  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 08:41:43.085  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 08:41:43.595  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 08:41:44.279  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 08:41:44.283  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 08:41:44.350  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.025s)
+2019-04-05 08:41:44.358  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 08:41:44.358  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 08:41:44.502  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a3c99f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@e0847a9, org.springframework.security.web.header.HeaderWriterFilter@4b7ab7ab, org.springframework.security.web.csrf.CsrfFilter@25d9291a, org.springframework.security.web.authentication.logout.LogoutFilter@67a6a2d0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a55e82a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@92e2c93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24fef542, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16b7e04a, org.springframework.security.web.session.SessionManagementFilter@39acd1f1, org.springframework.security.web.access.ExceptionTranslationFilter@223cbf0d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f6fd101]
+2019-04-05 08:41:44.657  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 08:41:44.697  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 08:41:44.865  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 08:41:45.380  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 08:41:45.398  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-05 08:48:39.679  INFO LAPTOP-2C5RN20E
+			--- [on(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-05 08:48:39.690  INFO LAPTOP-2C5RN20E
+			--- [on(9)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-05 08:48:39.696  INFO LAPTOP-2C5RN20E
+			--- [on(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 08:48:39.699  INFO LAPTOP-2C5RN20E
+			--- [on(9)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-05 08:48:39.703  INFO LAPTOP-2C5RN20E
+			--- [on(9)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-04-05 16:35:14.962  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 16:35:15.070  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99ms. Found 2 repository interfaces.
+2019-04-05 16:35:15.475  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63c619b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 16:35:15.493  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e34666e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 16:35:17.744  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 16:35:17.766  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 16:35:17.779  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 16:35:17.780  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 16:35:17.791  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 16:35:17.939  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 16:35:17.939  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3901 ms
+2019-04-05 16:35:18.368  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 16:35:18.415  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 16:35:18.506  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 16:35:18.659  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 16:35:18.661  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 16:35:18.981  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 16:35:19.232  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 16:35:20.203  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 16:35:21.086  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 16:35:21.092  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 16:35:21.174  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.053s)
+2019-04-05 16:35:21.186  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 16:35:21.187  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 16:35:21.341  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@545604a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@389a1e34, org.springframework.security.web.header.HeaderWriterFilter@302da330, org.springframework.security.web.csrf.CsrfFilter@7e1a9173, org.springframework.security.web.authentication.logout.LogoutFilter@629cbb1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30704f85, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f68756d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54e0f76f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1029cf9, org.springframework.security.web.session.SessionManagementFilter@9f2376f, org.springframework.security.web.access.ExceptionTranslationFilter@797f97e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@93ce24d]
+2019-04-05 16:35:21.562  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 16:35:21.622  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 16:35:21.810  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 16:35:22.384  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 16:35:22.433  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-05 16:35:29.150  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-05 16:35:29.151  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-04-05 16:35:29.179  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 28 ms
+2019-04-05 16:35:51.295  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-05 16:59:12.917  INFO LAPTOP-2C5RN20E
+			--- [n(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-05 16:59:12.922  INFO LAPTOP-2C5RN20E
+			--- [n(26)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-05 16:59:12.924  INFO LAPTOP-2C5RN20E
+			--- [n(26)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 16:59:12.928  INFO LAPTOP-2C5RN20E
+			--- [n(26)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-05 16:59:12.939  INFO LAPTOP-2C5RN20E
+			--- [n(26)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-04-05 16:59:16.829  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 16:59:16.899  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 2 repository interfaces.
+2019-04-05 16:59:17.226  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b56f34f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 16:59:17.243  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$dad74081] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 16:59:17.579  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 16:59:17.591  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 16:59:17.599  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 16:59:17.600  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 16:59:17.606  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 16:59:17.716  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 16:59:17.717  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1574 ms
+2019-04-05 16:59:18.123  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 16:59:18.161  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 16:59:18.214  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 16:59:18.267  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 16:59:18.268  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 16:59:18.366  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 16:59:18.481  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 16:59:18.969  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 16:59:19.690  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 16:59:19.693  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 16:59:19.755  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.033s)
+2019-04-05 16:59:19.768  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 16:59:19.769  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 16:59:19.936  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29aa4bc9, org.springframework.security.web.context.SecurityContextPersistenceFilter@136fece2, org.springframework.security.web.header.HeaderWriterFilter@6591f8ea, org.springframework.security.web.csrf.CsrfFilter@5a1a20ae, org.springframework.security.web.authentication.logout.LogoutFilter@636e4bf8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f3c5308, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3caf5c96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fd87c22, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fd7aba8, org.springframework.security.web.session.SessionManagementFilter@279c4e3b, org.springframework.security.web.access.ExceptionTranslationFilter@6e3b2dd3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@dc8b2ff]
+2019-04-05 16:59:20.095  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 16:59:20.132  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 16:59:20.291  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 16:59:20.547  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 16:59:20.779  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-05 16:59:26.243  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-05 16:59:26.243  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-04-05 16:59:26.262  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 18 ms
+2019-04-05 16:59:37.919  INFO LAPTOP-2C5RN20E
+			--- [io-8080-exec-10] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-05 17:16:12.681  INFO LAPTOP-2C5RN20E
+			--- [n(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-05 17:16:12.690  INFO LAPTOP-2C5RN20E
+			--- [n(19)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-05 17:16:12.694  INFO LAPTOP-2C5RN20E
+			--- [n(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 17:16:12.699  INFO LAPTOP-2C5RN20E
+			--- [n(19)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-05 17:16:12.704  INFO LAPTOP-2C5RN20E
+			--- [n(19)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-04-05 17:16:16.640  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 17:16:16.701  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 2 repository interfaces.
+2019-04-05 17:16:17.023  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23e0b8c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 17:16:17.041  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a36105fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 17:16:17.370  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 17:16:17.382  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 17:16:17.390  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 17:16:17.390  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 17:16:17.396  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 17:16:17.511  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 17:16:17.511  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1586 ms
+2019-04-05 17:16:17.909  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 17:16:17.944  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 17:16:17.996  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 17:16:18.044  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 17:16:18.045  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 17:16:18.147  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 17:16:18.262  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 17:16:18.763  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 17:16:19.496  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 17:16:19.499  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 17:16:19.552  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.026s)
+2019-04-05 17:16:19.560  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 17:16:19.560  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 17:16:19.700  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b1c501d, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d126083, org.springframework.security.web.header.HeaderWriterFilter@35ab4260, org.springframework.security.web.csrf.CsrfFilter@5d9bb69b, org.springframework.security.web.authentication.logout.LogoutFilter@1308ef19, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6630dd28, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a8fb023, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@137a4b54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abbb273, org.springframework.security.web.session.SessionManagementFilter@38667005, org.springframework.security.web.access.ExceptionTranslationFilter@165aa43a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b3c2ae0]
+2019-04-05 17:16:19.864  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 17:16:19.908  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 17:16:20.070  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 17:16:20.344  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 17:16:20.364  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-05 17:16:20.897  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-05 17:16:20.897  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-04-05 17:16:20.915  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 18 ms
+2019-04-05 17:16:23.500 ERROR LAPTOP-2C5RN20E
+			--- [nio-8080-exec-5] o.t.TemplateEngine                       : [THYMELEAF][http-nio-8080-exec-5] Exception processing template "about1": Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-04-05 17:16:23.509 ERROR LAPTOP-2C5RN20E
+			--- [nio-8080-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-04-05 17:17:41.135  INFO LAPTOP-2C5RN20E
+			--- [on(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-05 17:17:41.142  INFO LAPTOP-2C5RN20E
+			--- [on(4)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-05 17:17:41.145  INFO LAPTOP-2C5RN20E
+			--- [on(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 17:17:41.148  INFO LAPTOP-2C5RN20E
+			--- [on(4)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-05 17:17:41.153  INFO LAPTOP-2C5RN20E
+			--- [on(4)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-04-05 17:17:44.979  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-05 17:17:45.053  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 2 repository interfaces.
+2019-04-05 17:17:45.411  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4fb719c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 17:17:45.428  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$747bbece] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 17:17:45.754  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-05 17:17:45.772  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-05 17:17:45.784  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-05 17:17:45.785  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-05 17:17:45.795  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-05 17:17:46.050  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-05 17:17:46.050  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1824 ms
+2019-04-05 17:17:46.317  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-05 17:17:46.352  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-05 17:17:46.406  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-05 17:17:46.463  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-05 17:17:46.465  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-05 17:17:46.565  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-05 17:17:46.679  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-05 17:17:47.155  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 17:17:47.887  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-05 17:17:47.891  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-05 17:17:47.942  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 3 migrations (execution time 00:00.025s)
+2019-04-05 17:17:47.951  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-05 17:17:47.952  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-04-05 17:17:48.091  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@553fbe94, org.springframework.security.web.context.SecurityContextPersistenceFilter@abc7005, org.springframework.security.web.header.HeaderWriterFilter@53e28097, org.springframework.security.web.csrf.CsrfFilter@7bce9ce4, org.springframework.security.web.authentication.logout.LogoutFilter@7f53fc38, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4387d2f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63c84d31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@204b0f07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6abe62bb, org.springframework.security.web.session.SessionManagementFilter@75f4d8a8, org.springframework.security.web.access.ExceptionTranslationFilter@7878bbdb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4fee14b]
+2019-04-05 17:17:48.251  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 17:17:48.289  WARN LAPTOP-2C5RN20E
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-05 17:17:48.451  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-04-05 17:17:48.916  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-04-05 17:17:48.936  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-05 17:17:52.616  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-05 17:17:52.616  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-04-05 17:17:52.636  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 20 ms
+2019-04-05 17:17:54.410 ERROR LAPTOP-2C5RN20E
+			--- [nio-8080-exec-4] o.t.TemplateEngine                       : [THYMELEAF][http-nio-8080-exec-4] Exception processing template "about1": Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-04-05 17:17:54.418 ERROR LAPTOP-2C5RN20E
+			--- [nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about1], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-04-05 17:58:12.667  WARN LAPTOP-2C5RN20E
+			--- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m56s160ms672µs858ns).
+2019-04-05 18:01:50.407  INFO LAPTOP-2C5RN20E
+			--- [n(31)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-04-05 18:01:50.410  INFO LAPTOP-2C5RN20E
+			--- [n(31)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-05 18:01:50.412  INFO LAPTOP-2C5RN20E
+			--- [n(31)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-05 18:01:50.414  INFO LAPTOP-2C5RN20E
+			--- [n(31)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-05 18:01:50.421  INFO LAPTOP-2C5RN20E
+			--- [n(31)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

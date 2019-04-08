@@ -1,0 +1,174 @@
+2019-04-08 15:15:52.441  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 15:15:52.517  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 2 repository interfaces.
+2019-04-08 15:15:52.836  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f2c3f7b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 15:15:52.857  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$724444e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 15:15:53.182  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-04-08 15:15:53.193  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-08 15:15:53.201  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-04-08 15:15:53.201  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-08 15:15:53.217  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-04-08 15:15:53.426  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-04-08 15:15:53.427  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1622 ms
+2019-04-08 15:15:53.702  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-04-08 15:15:53.738  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-04-08 15:15:53.787  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 15:15:53.836  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 15:15:53.837  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-04-08 15:15:53.931  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 15:15:54.036  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-04-08 15:15:54.509  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 15:15:55.147  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-04-08 15:15:55.150  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-04-08 15:15:55.209  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 4 migrations (execution time 00:00.030s)
+2019-04-08 15:15:55.218  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.6
+2019-04-08 15:15:55.219  INFO LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Migrating schema `tagcloud` to version 1.0.7 - improvements table role
+2019-04-08 15:15:55.224 ERROR LAPTOP-2C5RN20E
+			--- [           main] o.f.c.i.c.DbMigrate                      : Migration of schema `tagcloud` to version 1.0.7 - improvements table role failed! Please restore backups and roll back database and code!
+2019-04-08 15:15:55.238  WARN LAPTOP-2C5RN20E
+			--- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'delayedFlywayInitializer' defined in class path resource [ch/tagcloud/www/config/MigrationConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1.0.7__improvements_table_role.sql failed
+----------------------------------------------------
+SQL State  : 42S21
+Error Code : 1060
+Message    : (conn=41) Duplicate column name 'description'
+Location   : db/migration/V1.0.7__improvements_table_role.sql (C:\Users\nussbi\eclipse-workspace\Integration\target\classes\db\migration\V1.0.7__improvements_table_role.sql)
+Line       : 1
+Statement  : ALTER TABLE `role`
+	ADD COLUMN `description` VARCHAR(100) NULL AFTER `update_date_time`
+
+2019-04-08 15:15:55.239  INFO LAPTOP-2C5RN20E
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 15:15:55.242  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-04-08 15:15:55.266  INFO LAPTOP-2C5RN20E
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-04-08 15:15:55.267  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-04-08 15:15:55.278  INFO LAPTOP-2C5RN20E
+			--- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-08 15:15:55.284 ERROR LAPTOP-2C5RN20E
+			--- [           main] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'delayedFlywayInitializer' defined in class path resource [ch/tagcloud/www/config/MigrationConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1.0.7__improvements_table_role.sql failed
+----------------------------------------------------
+SQL State  : 42S21
+Error Code : 1060
+Message    : (conn=41) Duplicate column name 'description'
+Location   : db/migration/V1.0.7__improvements_table_role.sql (C:\Users\nussbi\eclipse-workspace\Integration\target\classes\db\migration\V1.0.7__improvements_table_role.sql)
+Line       : 1
+Statement  : ALTER TABLE `role`
+	ADD COLUMN `description` VARCHAR(100) NULL AFTER `update_date_time`
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at ch.tagcloud.www.TagCloudApplication.main(TagCloudApplication.java:22)
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1.0.7__improvements_table_role.sql failed
+----------------------------------------------------
+SQL State  : 42S21
+Error Code : 1060
+Message    : (conn=41) Duplicate column name 'description'
+Location   : db/migration/V1.0.7__improvements_table_role.sql (C:\Users\nussbi\eclipse-workspace\Integration\target\classes\db\migration\V1.0.7__improvements_table_role.sql)
+Line       : 1
+Statement  : ALTER TABLE `role`
+	ADD COLUMN `description` VARCHAR(100) NULL AFTER `update_date_time`
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:370)
+	at org.flywaydb.core.internal.command.DbMigrate.access$200(DbMigrate.java:54)
+	at org.flywaydb.core.internal.command.DbMigrate$3.call(DbMigrate.java:284)
+	at org.flywaydb.core.internal.jdbc.TransactionTemplate.execute(TransactionTemplate.java:74)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:281)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:246)
+	at org.flywaydb.core.internal.command.DbMigrate.access$100(DbMigrate.java:54)
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:164)
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:161)
+	at org.flywaydb.core.internal.database.mysql.MySQLNamedLockTemplate.execute(MySQLNamedLockTemplate.java:60)
+	at org.flywaydb.core.internal.database.mysql.MySQLConnection.lock(MySQLConnection.java:147)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:155)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:161)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:139)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1395)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1356)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1711)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1356)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 16 more
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: 
+Migration V1.0.7__improvements_table_role.sql failed
+----------------------------------------------------
+SQL State  : 42S21
+Error Code : 1060
+Message    : (conn=41) Duplicate column name 'description'
+Location   : db/migration/V1.0.7__improvements_table_role.sql (C:\Users\nussbi\eclipse-workspace\Integration\target\classes\db\migration\V1.0.7__improvements_table_role.sql)
+Line       : 1
+Statement  : ALTER TABLE `role`
+	ADD COLUMN `description` VARCHAR(100) NULL AFTER `update_date_time`
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:253)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:202)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:125)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:77)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:367)
+	... 36 more
+Caused by: java.sql.SQLSyntaxErrorException: (conn=41) Duplicate column name 'description'
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:236)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:165)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:238)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:407)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:235)
+	at org.flywaydb.core.internal.sqlscript.StandardSqlStatement.execute(StandardSqlStatement.java:42)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:189)
+	... 39 more
+Caused by: java.sql.SQLException: Duplicate column name 'description'
+Query is: ALTER TABLE `role`
+	ADD COLUMN `description` VARCHAR(100) NULL AFTER `update_date_time`
+java thread: main
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:126)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:222)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:350)
+	... 43 more

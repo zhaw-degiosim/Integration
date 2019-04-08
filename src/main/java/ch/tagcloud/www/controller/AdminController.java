@@ -12,6 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import ch.tagcloud.www.service.UserService;
+import ch.tagcloud.www.service.RoleService;
 
 @Controller
 public class AdminController {
@@ -19,12 +20,19 @@ public class AdminController {
 	@Autowired
 	private UserService userService;
 	
+	@Autowired
+	private RoleService roleService;
+	
 	private static Logger logger = LogManager.getLogger(AdminController.class);
 
 	@GetMapping(value = "/admin")
     public String indexPage(Model model) {
 		
+		logger.info("Find all registered users");
 		model.addAttribute("user", userService.findAll());
+		
+		logger.info("Find all roles");
+		model.addAttribute("role", roleService.findAll());
 		
 		logger.info("Serve template: admin");
  
