@@ -27,6 +27,9 @@ public class Role {
 
 	@Column(length = 40, unique=true, nullable = false)
     private String name;
+	
+	@Column(length = 100, unique=false, nullable = true)
+    private String description;
 
     @ManyToMany(mappedBy = "roles")
     private Set<User> users;
@@ -54,4 +57,28 @@ public class Role {
     public void setUsers(Set<User> users) {
         this.users = users;
     }
+
+	public LocalDateTime getCreateDateTime() {
+		return createDateTime;
+	}
+
+	public void setCreateDateTime(LocalDateTime createDateTime) {
+		this.createDateTime = createDateTime;
+	}
+
+	public LocalDateTime getUpdateDateTime() {
+		return updateDateTime;
+	}
+
+	public void setUpdateDateTime(LocalDateTime updateDateTime) {
+		this.updateDateTime = updateDateTime;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
 }
