@@ -67,8 +67,10 @@
 							th:utext="#{form.salutation}"><span class="required">
 								*</span></label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" th:field="*{salutation}"
-								th:placeholder="#{form.salutation.placeholder}" required>
+							<select class="form-control" th:field="*{salutation}" required>
+								<option th:value="#{form.salutation.male}" th:utext="#{form.salutation.male}"></option>
+								<option th:value="#{form.salutation.female}" th:utext="#{form.salutation.female}"></option>
+							</select>
 							<div class="alert alert-danger" role="alert"
 								th:if="${#fields.hasErrors('salutation')}"
 								th:errors="*{salutation}"></div>
