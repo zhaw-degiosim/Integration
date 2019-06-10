@@ -1,66 +1,80 @@
-2019-04-08 15:37:56.628  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:18.830  INFO DESKTOP-M1H1RUL
 			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-04-08 15:37:56.697  INFO LAPTOP-2C5RN20E
-			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 2 repository interfaces.
-2019-04-08 15:37:57.029  INFO LAPTOP-2C5RN20E
-			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cbd1806] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-04-08 15:37:57.058  INFO LAPTOP-2C5RN20E
-			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9c3d6538] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-04-08 15:37:57.370  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:18.900  INFO DESKTOP-M1H1RUL
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 2 repository interfaces.
+2019-06-10 16:32:19.271  INFO DESKTOP-M1H1RUL
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f613c16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-10 16:32:19.287  INFO DESKTOP-M1H1RUL
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9ee18948] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-10 16:32:19.599  INFO DESKTOP-M1H1RUL
 			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
-2019-04-08 15:37:57.382  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:19.612  INFO DESKTOP-M1H1RUL
 			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
-2019-04-08 15:37:57.390  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:19.620  INFO DESKTOP-M1H1RUL
 			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
-2019-04-08 15:37:57.390  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:19.621  INFO DESKTOP-M1H1RUL
 			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-04-08 15:37:57.397  INFO LAPTOP-2C5RN20E
-			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
-2019-04-08 15:37:57.514  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:19.628  INFO DESKTOP-M1H1RUL
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Calibre2\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;;.]
+2019-06-10 16:32:19.745  INFO DESKTOP-M1H1RUL
 			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
-2019-04-08 15:37:57.514  INFO LAPTOP-2C5RN20E
-			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1615 ms
-2019-04-08 15:37:57.893  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:19.746  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1649 ms
+2019-06-10 16:32:20.131  INFO DESKTOP-M1H1RUL
 			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
-2019-04-08 15:37:57.931  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:20.166  INFO DESKTOP-M1H1RUL
 			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
-2019-04-08 15:37:57.983  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:20.213  INFO DESKTOP-M1H1RUL
 			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-04-08 15:37:58.032  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:20.266  INFO DESKTOP-M1H1RUL
 			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
-2019-04-08 15:37:58.034  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:20.281  INFO DESKTOP-M1H1RUL
 			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
-2019-04-08 15:37:58.133  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:20.379  INFO DESKTOP-M1H1RUL
 			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-04-08 15:37:58.253  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:20.481  INFO DESKTOP-M1H1RUL
 			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
-2019-04-08 15:37:58.754  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:20.942  INFO DESKTOP-M1H1RUL
 			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-04-08 15:37:59.542  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:21.622  INFO DESKTOP-M1H1RUL
 			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
-2019-04-08 15:37:59.546  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:21.625  INFO DESKTOP-M1H1RUL
 			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
-2019-04-08 15:37:59.603  INFO LAPTOP-2C5RN20E
-			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 4 migrations (execution time 00:00.028s)
-2019-04-08 15:37:59.615  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:21.669  INFO DESKTOP-M1H1RUL
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 4 migrations (execution time 00:00.020s)
+2019-06-10 16:32:21.676  INFO DESKTOP-M1H1RUL
 			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.7
-2019-04-08 15:37:59.615  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:21.677  INFO DESKTOP-M1H1RUL
 			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
-2019-04-08 15:37:59.761  INFO LAPTOP-2C5RN20E
-			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12a6e8ed, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f60824e, org.springframework.security.web.header.HeaderWriterFilter@7079f8f0, org.springframework.security.web.csrf.CsrfFilter@c754401, org.springframework.security.web.authentication.logout.LogoutFilter@1171ba7e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22ae32ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29c25bbc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27dfd12b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63b4b9c6, org.springframework.security.web.session.SessionManagementFilter@7cdc4070, org.springframework.security.web.access.ExceptionTranslationFilter@1dbff71c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ba46845]
-2019-04-08 15:37:59.925  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:21.809  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@223cbf0d, org.springframework.security.web.context.SecurityContextPersistenceFilter@14201a90, org.springframework.security.web.header.HeaderWriterFilter@7c9372ed, org.springframework.security.web.csrf.CsrfFilter@7d977a20, org.springframework.security.web.authentication.logout.LogoutFilter@1530d0f2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ae66c98, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b1ff8cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4468fda8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a4ff5ed, org.springframework.security.web.session.SessionManagementFilter@4ca970d5, org.springframework.security.web.access.ExceptionTranslationFilter@6d617b07, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25d9291a]
+2019-06-10 16:32:21.985  INFO DESKTOP-M1H1RUL
 			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
-2019-04-08 15:37:59.967  WARN LAPTOP-2C5RN20E
+2019-06-10 16:32:22.023  WARN DESKTOP-M1H1RUL
 			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-04-08 15:38:00.140  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:22.190  INFO DESKTOP-M1H1RUL
 			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-04-08 15:38:00.607  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:22.443  INFO DESKTOP-M1H1RUL
 			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
-2019-04-08 15:38:00.625  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:22.691  INFO DESKTOP-M1H1RUL
 			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
-2019-04-08 15:38:05.585  INFO LAPTOP-2C5RN20E
+2019-06-10 16:32:47.251  INFO DESKTOP-M1H1RUL
 			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-04-08 15:38:05.586  INFO LAPTOP-2C5RN20E
-			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : I
+2019-06-10 16:32:47.252  INFO DESKTOP-M1H1RUL
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-06-10 16:32:47.268  INFO DESKTOP-M1H1RUL
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 16 ms
+2019-06-10 16:32:59.254  INFO DESKTOP-M1H1RUL
+			--- [nio-8080-exec-6] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-10 16:37:36.417  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-10 16:37:36.420  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-10 16:37:36.422  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-10 16:37:36.425  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-06-10 16:37:36.428  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

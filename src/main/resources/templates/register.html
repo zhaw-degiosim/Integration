@@ -62,8 +62,7 @@
 			<h4 class="card-header" th:utext="#{card.header.register}"></h4>
 			<div class="card-body">
 				<p class="card-text"></p>
-				<form th:action="@{/register}" th:object="${userForm}" method='POST'>
-					
+				<form th:action="@{/register}" th:object="${userForm}" method='POST'>			
 					<div class="form-group row">
 						<label for="salutation" class="col-sm-3 col-form-label"
 							th:utext="#{form.salutation}"><span class="required">
