@@ -1,0 +1,72 @@
+2019-06-19 11:21:15.681  INFO DESKTOP-M1H1RUL
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-19 11:21:15.749  INFO DESKTOP-M1H1RUL
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 2 repository interfaces.
+2019-06-19 11:21:16.139  INFO DESKTOP-M1H1RUL
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef79b091] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 11:21:16.158  INFO DESKTOP-M1H1RUL
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6ef9fdc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 11:21:16.496  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-19 11:21:16.508  INFO DESKTOP-M1H1RUL
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-19 11:21:16.515  INFO DESKTOP-M1H1RUL
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-19 11:21:16.515  INFO DESKTOP-M1H1RUL
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 11:21:16.521  INFO DESKTOP-M1H1RUL
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Calibre2\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;;.]
+2019-06-19 11:21:16.635  INFO DESKTOP-M1H1RUL
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-19 11:21:16.635  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1713 ms
+2019-06-19 11:21:17.001  INFO DESKTOP-M1H1RUL
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-06-19 11:21:17.037  INFO DESKTOP-M1H1RUL
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-06-19 11:21:17.083  INFO DESKTOP-M1H1RUL
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-19 11:21:17.130  INFO DESKTOP-M1H1RUL
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
+2019-06-19 11:21:17.145  INFO DESKTOP-M1H1RUL
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-06-19 11:21:17.244  INFO DESKTOP-M1H1RUL
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-19 11:21:17.344  INFO DESKTOP-M1H1RUL
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2019-06-19 11:21:17.804  INFO DESKTOP-M1H1RUL
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 11:21:18.497  INFO DESKTOP-M1H1RUL
+			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
+2019-06-19 11:21:18.501  INFO DESKTOP-M1H1RUL
+			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
+2019-06-19 11:21:18.544  INFO DESKTOP-M1H1RUL
+			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 4 migrations (execution time 00:00.020s)
+2019-06-19 11:21:18.553  INFO DESKTOP-M1H1RUL
+			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.7
+2019-06-19 11:21:18.553  INFO DESKTOP-M1H1RUL
+			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
+2019-06-19 11:21:18.687  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27dfd12b, org.springframework.security.web.context.SecurityContextPersistenceFilter@359865a2, org.springframework.security.web.header.HeaderWriterFilter@173b1af1, org.springframework.security.web.csrf.CsrfFilter@1be77a76, org.springframework.security.web.authentication.logout.LogoutFilter@7d977a20, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1de12397, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25d0b918, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b09d1c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4348fa35, org.springframework.security.web.session.SessionManagementFilter@389a1e34, org.springframework.security.web.access.ExceptionTranslationFilter@302da330, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@121cf6f4]
+2019-06-19 11:21:18.848  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 11:21:18.905  WARN DESKTOP-M1H1RUL
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-19 11:21:19.083  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-19 11:21:19.448  INFO DESKTOP-M1H1RUL
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-06-19 11:21:19.695  INFO DESKTOP-M1H1RUL
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-19 11:22:00.057  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 11:22:00.061  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 11:22:00.064  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 11:22:00.066  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-06-19 11:22:00.068  INFO DESKTOP-M1H1RUL
+			--- [on(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
