@@ -67,7 +67,7 @@ sdafsdf
 6. Wählen Sie *Git* --> *Projects from Git*
 7. Wählen Sie *Clone URI*
 8. Überprüfen Sie die Informationen
-	1. URI: https://github.com/zhaw-degiosim/Integration.git
+	1. URI: https://github.com/zhaw-degiosim/Integration.git (Dateiendung **.git** an dieser Stelle beachten) 
 	2. Host: github.com
 	3. Repository path: /zhaw-degiosim/Integration.git
 	4. Protocol: https
