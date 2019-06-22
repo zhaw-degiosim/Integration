@@ -14,8 +14,8 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 * [Installation Eclipse IDE](#installation-eclipse-ide)
 * [Installation MariaDB](#installation-mariadb)
 * [Installation HeidiSQL](#installation-heidisql)
-	+ [Nutzung HeidiSQL](#nutzung-heidsql)
-* [Hinzufügen des Github-Projekts in Eclipse](#hinzufügen-des-github-projekts-in-eclipse)
+	+ [Nutzung HeidiSQL](#nutzung-heidisql)
+* [Importieren des Github-Projekts in Eclipse](#importieren-des-github-projekts-in-eclipse)
 * [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)
 
 
@@ -53,7 +53,7 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 ### Nutzung HeidiSQL
 sdafsdf
 
-## Hinzufügen des Github-Projekts in Eclipse
+## Importieren des Github-Projekts in Eclipse
 1. Starten Sie Eclipse
 2. 
 
