@@ -14,8 +14,10 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 * [Installation Eclipse IDE](#installation-eclipse-ide)
 * [Installation MariaDB](#installation-mariadb)
 * [Installation HeidiSQL](#installation-heidisql)
-	+ [Nutzung HeidiSQL](#nutzung-heidisql)
++ [Nutzung HeidiSQL](#nutzung-heidisql)
 * [Importieren des Github-Projekts in Eclipse](#importieren-des-github-projekts-in-eclipse)
++ [Vorhandenes Github-Konto](#vorhandenes-github-konto)
++ [Kein vorhandenes Github-Konto](#kein-vorhandenes-github-konto)
 * [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)
 
 
@@ -54,12 +56,40 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 sdafsdf
 
 ## Importieren des Github-Projekts in Eclipse
-1. Starten Sie Eclipse
-2. 
+### Vorhandenes Github-Konto
+> Falls Sie kein Github-Konto haben, gehen Sie zum nächsten Unterkapitel.
+
+1. Öffnen Sie das Github-Repository https://github.com/zhaw-degiosim/Integration
+2. Klicken Sie auf *Clone or download*
+3. Kopieren Sie den Link
+4. Öffnen Sie Eclipse
+5. Navigieren Sie zu *File* --> *Import*
+6. Wählen Sie *Git* --> *Projects from Git*
+7. Wählen Sie *Clone URI*
+8. Überprüfen Sie die Informationen
+	i) URI: https://github.com/zhaw-degiosim/Integration.git
+	ii) Host: github.com
+	iii) Repository path: /zhaw-degiosim/Integration.git
+	iv) Protocol: https
+9. Geben Sie Ihren Github-Benutzernamen und Ihr Passwort ein und fahren Sie mit Next fort
+10. Import existing Eclipse projects
+11. Finish
+
+### Kein vorhandenes Github-Konto
+1. Öffnen Sie das Github-Repository https://github.com/zhaw-degiosim/Integration
+2. Klicken Sie auf *Clone or download*
+3. Klicken Sie auf *Download ZIP*
+4. Speichern Sie die ZIP-Datei an einem sicheren Ort
+5. Entpacken Sie die ZIP-Datei
+6. Öffnen Sie Eclipse
+7. Navigieren Sie zu *File* --> *Open Projects from File System*
+8. Neben *Import Source* klicken Sie auf *Directory*
+9. Wählen Sie den entpackten Ordner aus
+10. Finish
 
 ## Nutzung der Tag Cloud Webapplikation
-1. Klicken Sie mit der Maus auf die oberste Ebene des Projekts im Package Explorer (*Integration* oder *X*)
-2. Rechtsklick auf *Integration* (bzw. *X*)
+1. Klicken Sie mit der Maus auf die oberste Ebene des Projekts im Package Explorer (*Integration* oder *tag-cloud*)
+2. Rechtsklick auf *Integration* (bzw. *tag-cloud*)
 3. Run --> Run As --> Spring Boot App
 4. Warten Sie bis die Applikation gestartet ist
 5. Starten Sie einen Webbrowser und geben Sie *http://localhost:8080* in die Adresszeile
