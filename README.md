@@ -14,10 +14,10 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 * [Installation Eclipse IDE](#installation-eclipse-ide)
 * [Installation MariaDB](#installation-mariadb)
 * [Installation HeidiSQL](#installation-heidisql)
-+ [Nutzung HeidiSQL](#nutzung-heidisql)
+	+ [Nutzung HeidiSQL](#nutzung-heidisql)
 * [Importieren des Github-Projekts in Eclipse](#importieren-des-github-projekts-in-eclipse)
-+ [Vorhandenes Github-Konto](#vorhandenes-github-konto)
-+ [Kein vorhandenes Github-Konto](#kein-vorhandenes-github-konto)
+	+ [Vorhandenes Github-Konto](#vorhandenes-github-konto)
+	+ [Kein vorhandenes Github-Konto](#kein-vorhandenes-github-konto)
 * [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)
 
 
@@ -59,7 +59,7 @@ sdafsdf
 ### Vorhandenes Github-Konto
 > Falls Sie kein Github-Konto haben, gehen Sie zum nächsten Unterkapitel.
 
-1. Öffnen Sie das Github-Repository https://github.com/zhaw-degiosim/Integration
+1. Öffnen Sie das Github-Repository unter https://github.com/zhaw-degiosim/Integration
 2. Klicken Sie auf *Clone or download*
 3. Kopieren Sie den Link
 4. Öffnen Sie Eclipse
@@ -67,16 +67,16 @@ sdafsdf
 6. Wählen Sie *Git* --> *Projects from Git*
 7. Wählen Sie *Clone URI*
 8. Überprüfen Sie die Informationen
-	i) URI: https://github.com/zhaw-degiosim/Integration.git
-	ii) Host: github.com
-	iii) Repository path: /zhaw-degiosim/Integration.git
-	iv) Protocol: https
+	1. URI: https://github.com/zhaw-degiosim/Integration.git
+	2. Host: github.com
+	3. Repository path: /zhaw-degiosim/Integration.git
+	4. Protocol: https
 9. Geben Sie Ihren Github-Benutzernamen und Ihr Passwort ein und fahren Sie mit Next fort
 10. Import existing Eclipse projects
 11. Finish
 
 ### Kein vorhandenes Github-Konto
-1. Öffnen Sie das Github-Repository https://github.com/zhaw-degiosim/Integration
+1. Öffnen Sie das Github-Repository unter https://github.com/zhaw-degiosim/Integration
 2. Klicken Sie auf *Clone or download*
 3. Klicken Sie auf *Download ZIP*
 4. Speichern Sie die ZIP-Datei an einem sicheren Ort
