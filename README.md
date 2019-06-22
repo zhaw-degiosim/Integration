@@ -14,19 +14,19 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 * [Installation Eclipse IDE](#installation-eclipse-ide)
 * [Installation MariaDB](#installation-mariadb)
 * [Installation HeidiSQL](#installation-heidisql)
+	+ [Nutzung HeidiSQL](#nutzung-heidsql)
 * [Hinzufügen des Github-Projekts in Eclipse](#hinzufügen-des-github-projekts-in-eclipse)
 * [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)
 
 
 
 ## Installation Eclipse IDE
-> Um Eclipse für Java zu nutzen, müssen Sie das Java Development Kit (JDK) installiert haben.[Downloadlink Java SE Development Kit 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
+> Um Eclipse für Java zu nutzen, müssen Sie das Java Development Kit (JDK) installiert haben. [Downloadlink Java SE Development Kit 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
 
-Sie benötigen Eclipse IDE for Java Developers auf Ihrem Rechner. Falls Sie das Programm nicht installiert haben, können Sie es hier [Downloadlink Eclipse IDE](https://www.eclipse.org/downloads) herunterladen.
-
-1. Starten Sie die Installationsdatei
-2. Wählen Sie Eclipse IDE for Java Developers
-3. Klicken Sie auf Install
+1. Laden Sie Eclipse IDE herunter [Downloadlink Eclipse IDE](https://www.eclipse.org/downloads)
+2. Starten Sie die Installationsdatei
+3. Wählen Sie Eclipse IDE for Java Developers
+4. Klicken Sie auf Install
 
 
 ## Installation MariaDB
@@ -34,23 +34,24 @@ Sie benötigen Eclipse IDE for Java Developers auf Ihrem Rechner. Falls Sie das P
 
 1. Laden Sie MariaDB herunter [Downloadlink MariaDB](https://downloads.mariadb.org/) (Beispielsweise das MSI Package für Windows für eine einfache Installation)
 2. Starten Sie die Installationsdatei
-3. Next
-4. License Agreement akzepiteren, Next
-5. Custom Setup mit Standardeinstellungen, Next
-6. Entfernen Sie den Hacken bei *Modify password for database user 'root'* und lassen Sie das Passwort-Feld leer
-7. Next
-8. Übernehmen Sie die Standardeinstellungen für Service Name, TCP port etc. und fahren Sie mit Next fort.
-9. Next, Sie müssen das Feedback plugin nicht aktivieren.
-10. Install
+3. License Agreement akzepiteren, Next
+4. Custom Setup mit Standardeinstellungen, Next
+5. Entfernen Sie den Hacken bei *Modify password for database user 'root'* und lassen Sie das Passwort-Feld leer
+6. Übernehmen Sie die Standardeinstellungen für Service Name, TCP port etc. und fahren Sie mit Next fort.
+7. Next, Sie müssen das Feedback plugin nicht aktivieren.
+8. Install
 
 ## Installation HeidiSQL
-> HeidiSQL ermöglicht direkten Zugriff auf die Datenbank. Es ist keine Vorausseztung für das Ausführen der Tag Cloud. Wenn Sie die Datenbank hinter der Weboberfläche begutachten wollen, installieren Sie HeidiSQL
+> HeidiSQL ermöglicht den direkten Zugriff auf die Datenbank. Es ist keine Vorausseztung für das Ausführen der Tag Cloud. Wenn Sie die Datenbank hinter der Weboberfläche begutachten wollen, installieren Sie HeidiSQL.
 
 1. Laden Sie die Installationsdatei herunter [Downloadlink HeidiSQL](https://www.heidisql.com/download.php) (Sie benötigenden Installer, 32/64 bit combinded)
 2. Starten Sie die Installationsdatei
 3. AkzeptierenSie die Lizenzvereinbarung, Weiter
 4. Übernehmen Sie die Standardeinstellung, Weiter
 5. Installieren
+
+### Nutzung HeidiSQL
+sdafsdf
 
 ## Hinzufügen des Github-Projekts in Eclipse
 1. Starten Sie Eclipse
