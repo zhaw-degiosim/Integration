@@ -49,17 +49,6 @@ public class Projects {
 	@Column(length = 40, unique=false, nullable = false)
     private String employee2;
 	
-	@OneToMany(mappedBy = "projects")
-    private Set<Workpackage> workpackage;
-
-	public Set<Workpackage> getWorkpackage() {
-		return workpackage;
-	}
-
-	public void setWorkpackage(Set<Workpackage> workpackage) {
-		this.workpackage = workpackage;
-	}
-
 	public Long getId() {
 		return id;
 	}
