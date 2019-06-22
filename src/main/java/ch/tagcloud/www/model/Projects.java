@@ -18,11 +18,11 @@ public class Projects {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @Column
+    @Column(nullable = false)
 	@CreationTimestamp
 	private LocalDateTime createDateTime;
     
-	@Column
+	@Column(nullable = false)
 	@UpdateTimestamp
 	private LocalDateTime updateDateTime;
 	
@@ -32,21 +32,21 @@ public class Projects {
 	@Column(length = 500, unique=false, nullable = true)
     private String description;
 	
-	@Column
+	@Column(nullable = false)
 	@Type(type="date")
 	private Date startDate;
 	
-	@Column
+	@Column(nullable = false)
 	@Type(type="date")
 	private Date endDate;
 	
 	@OneToOne
 	private User leader;
 	
-	@Column(length = 40, unique=false, nullable = false)
+	@Column(length = 40, unique=false, nullable = true)
     private String employee1;
 	
-	@Column(length = 40, unique=false, nullable = false)
+	@Column(length = 40, unique=false, nullable = true)
     private String employee2;
 	
 	public Long getId() {

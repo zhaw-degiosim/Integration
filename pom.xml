@@ -98,11 +98,12 @@
 			<groupId>org.thymeleaf.extras</groupId>
 			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
 		</dependency>
-		<!-- Datenbankmigration mit Flyway - URL: https://flywaydb.org -->
+		<!-- Datenbankmigration mit Flyway - URL: https://flywaydb.org 
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
-		</dependency>
+			<version>5.2.4</version>
+		</dependency> -->
 
 
 	</dependencies>
