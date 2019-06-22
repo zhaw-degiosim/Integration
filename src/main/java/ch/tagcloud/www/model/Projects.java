@@ -40,8 +40,8 @@ public class Projects {
 	@Type(type="date")
 	private Date endDate;
 	
-	@Column(length = 40, unique=false, nullable = false)
-    private String leader;
+	@OneToOne
+	private User leader;
 	
 	@Column(length = 40, unique=false, nullable = false)
     private String employee1;
@@ -105,14 +105,6 @@ public class Projects {
 		this.endDate = endDate;
 	}
 
-	public String getLeader() {
-		return leader;
-	}
-
-	public void setLeader(String leader) {
-		this.leader = leader;
-	}
-
 	public String getEmployee1() {
 		return employee1;
 	}
@@ -127,6 +119,14 @@ public class Projects {
 
 	public void setEmployee2(String employee2) {
 		this.employee2 = employee2;
+	}
+
+	public User getLeader() {
+		return leader;
+	}
+
+	public void setLeader(User leader) {
+		this.leader = leader;
 	}
 	
 	

@@ -33,7 +33,10 @@ public class Activities {
     private String description;
 	
 	@Column(length = 2, unique=true, nullable = false)
-	private int time;
+	private int timePlaned;
+	
+	@Column(length = 2, unique=true, nullable = false)
+	private int timeUsed;
 
 	public Long getId() {
 		return id;
@@ -75,13 +78,20 @@ public class Activities {
 		this.description = description;
 	}
 
-	public int getTime() {
-		return time;
+	public int getTimePlaned() {
+		return timePlaned;
 	}
 
-	public void setTime(int time) {
-		this.time = time;
+	public void setTimePlaned(int timePlaned) {
+		this.timePlaned = timePlaned;
 	}
 	
+	public int getTimeUsed() {
+		return timeUsed;
+	}
+
+	public void setTimeUsed(int timeUsed) {
+		this.timeUsed = timeUsed;
+	}
 
 }
