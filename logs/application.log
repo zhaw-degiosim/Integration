@@ -1,80 +1,242 @@
-2019-06-19 11:34:42.082  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:37.067  INFO LAPTOP-2C5RN20E
 			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-06-19 11:34:42.165  INFO DESKTOP-M1H1RUL
-			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 2 repository interfaces.
-2019-06-19 11:34:42.520  INFO DESKTOP-M1H1RUL
-			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9dbe6c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-19 11:34:42.538  INFO DESKTOP-M1H1RUL
-			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$695c33f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-06-19 11:34:42.859  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:37.210  INFO LAPTOP-2C5RN20E
+			--- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 4 repository interfaces.
+2019-06-23 22:25:37.740  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9d79814] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:25:37.771  INFO LAPTOP-2C5RN20E
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5957e546] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:25:38.277  INFO LAPTOP-2C5RN20E
 			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
-2019-06-19 11:34:42.871  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:38.295  INFO LAPTOP-2C5RN20E
 			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
-2019-06-19 11:34:42.879  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:38.307  INFO LAPTOP-2C5RN20E
 			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
-2019-06-19 11:34:42.879  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:38.308  INFO LAPTOP-2C5RN20E
 			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-06-19 11:34:42.885  INFO DESKTOP-M1H1RUL
-			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Calibre2\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;;.]
-2019-06-19 11:34:42.999  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:38.318  INFO LAPTOP-2C5RN20E
+			--- [           main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\nussbi\AppData\Local\Microsoft\WindowsApps;;C:\Users\nussbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nussbi\Desktop;;.]
+2019-06-23 22:25:38.512  INFO LAPTOP-2C5RN20E
 			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
-2019-06-19 11:34:42.999  INFO DESKTOP-M1H1RUL
-			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1642 ms
-2019-06-19 11:34:43.371  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:38.513  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2641 ms
+2019-06-23 22:25:39.077  INFO LAPTOP-2C5RN20E
 			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
-2019-06-19 11:34:43.407  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:39.136  INFO LAPTOP-2C5RN20E
 			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
-2019-06-19 11:34:43.452  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:39.219  INFO LAPTOP-2C5RN20E
 			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-06-19 11:34:43.497  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:39.304  INFO LAPTOP-2C5RN20E
 			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.3.7.Final}
-2019-06-19 11:34:43.510  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:39.306  INFO LAPTOP-2C5RN20E
 			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
-2019-06-19 11:34:43.603  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:39.469  INFO LAPTOP-2C5RN20E
 			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-06-19 11:34:43.700  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:39.660  INFO LAPTOP-2C5RN20E
 			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
-2019-06-19 11:34:44.152  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:40.541  WARN LAPTOP-2C5RN20E
+			--- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table projects drop foreign key if exists FK2yi5wmkkbiobthv0cmk0jng48" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table projects drop foreign key if exists FK2yi5wmkkbiobthv0cmk0jng48" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at ch.tagcloud.www.TagCloudApplication.main(TagCloudApplication.java:22)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=206) Table 'tagcloud.projects' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:236)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:165)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:238)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:407)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 more
+Caused by: java.sql.SQLException: Table 'tagcloud.projects' doesn't exist
+Query is: alter table projects drop foreign key if exists FK2yi5wmkkbiobthv0cmk0jng48
+java thread: main
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:126)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:222)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:350)
+	... 39 more
+2019-06-23 22:25:40.544  WARN LAPTOP-2C5RN20E
+			--- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table user_roles drop foreign key if exists FKj9553ass9uctjrmh0gkqsmv0d" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table user_roles drop foreign key if exists FKj9553ass9uctjrmh0gkqsmv0d" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at ch.tagcloud.www.TagCloudApplication.main(TagCloudApplication.java:22)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=206) Table 'tagcloud.user_roles' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:236)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:165)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:238)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:407)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 more
+Caused by: java.sql.SQLException: Table 'tagcloud.user_roles' doesn't exist
+Query is: alter table user_roles drop foreign key if exists FKj9553ass9uctjrmh0gkqsmv0d
+java thread: main
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:126)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:222)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:350)
+	... 39 more
+2019-06-23 22:25:40.546  WARN LAPTOP-2C5RN20E
+			--- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table user_roles drop foreign key if exists FK7ecyobaa59vxkxckg6t355l86" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table user_roles drop foreign key if exists FK7ecyobaa59vxkxckg6t355l86" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at ch.tagcloud.www.TagCloudApplication.main(TagCloudApplication.java:22)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=206) Table 'tagcloud.user_roles' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:236)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:165)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:238)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:407)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 more
+Caused by: java.sql.SQLException: Table 'tagcloud.user_roles' doesn't exist
+Query is: alter table user_roles drop foreign key if exists FK7ecyobaa59vxkxckg6t355l86
+java thread: main
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:126)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:222)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:350)
+	... 39 more
+2019-06-23 22:25:41.545  INFO LAPTOP-2C5RN20E
+			--- [           main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/C:/Users/nussbi/eclipse-workspace/Integration/target/classes/import.sql)'
+2019-06-23 22:25:41.580  INFO LAPTOP-2C5RN20E
 			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-06-19 11:34:44.825  INFO DESKTOP-M1H1RUL
-			--- [           main] o.f.c.i.l.VersionPrinter                 : Flyway Community Edition 5.2.4 by Boxfuse
-2019-06-19 11:34:44.829  INFO DESKTOP-M1H1RUL
-			--- [           main] o.f.c.i.d.DatabaseFactory                : Database: jdbc:mariadb://localhost:3306/tagcloud (MySQL 10.3)
-2019-06-19 11:34:44.871  INFO DESKTOP-M1H1RUL
-			--- [           main] o.f.c.i.c.DbValidate                     : Successfully validated 4 migrations (execution time 00:00.019s)
-2019-06-19 11:34:44.878  INFO DESKTOP-M1H1RUL
-			--- [           main] o.f.c.i.c.DbMigrate                      : Current version of schema `tagcloud`: 1.0.7
-2019-06-19 11:34:44.879  INFO DESKTOP-M1H1RUL
-			--- [           main] o.f.c.i.c.DbMigrate                      : Schema `tagcloud` is up to date. No migration necessary.
-2019-06-19 11:34:45.010  INFO DESKTOP-M1H1RUL
-			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6abe62bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@595ec862, org.springframework.security.web.header.HeaderWriterFilter@6e794f53, org.springframework.security.web.csrf.CsrfFilter@1d2046bb, org.springframework.security.web.authentication.logout.LogoutFilter@5feb82b3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1dbff71c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@102af1bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f68756d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f60824e, org.springframework.security.web.session.SessionManagementFilter@69ba72da, org.springframework.security.web.access.ExceptionTranslationFilter@25f7cc38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@11c3d22f]
-2019-06-19 11:34:45.184  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:43.123  INFO LAPTOP-2C5RN20E
+			--- [           main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b332b23, org.springframework.security.web.context.SecurityContextPersistenceFilter@27e21083, org.springframework.security.web.header.HeaderWriterFilter@44ddb518, org.springframework.security.web.csrf.CsrfFilter@5ddb302, org.springframework.security.web.authentication.logout.LogoutFilter@299a43d9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22899683, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49e0b123, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@523abba9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66a472b9, org.springframework.security.web.session.SessionManagementFilter@6654ca0d, org.springframework.security.web.access.ExceptionTranslationFilter@4f20b022, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cf2f5d6]
+2019-06-23 22:25:43.387  INFO LAPTOP-2C5RN20E
 			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
-2019-06-19 11:34:45.222  WARN DESKTOP-M1H1RUL
+2019-06-23 22:25:43.453  WARN LAPTOP-2C5RN20E
 			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-06-19 11:34:45.385  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:43.728  INFO LAPTOP-2C5RN20E
 			--- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-06-19 11:34:45.638  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:44.097  INFO LAPTOP-2C5RN20E
 			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
-2019-06-19 11:34:45.881  INFO DESKTOP-M1H1RUL
+2019-06-23 22:25:44.517  INFO LAPTOP-2C5RN20E
 			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
-2019-06-19 11:34:54.545  INFO DESKTOP-M1H1RUL
+2019-06-23 22:26:32.370  INFO LAPTOP-2C5RN20E
 			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-06-19 11:34:54.546  INFO DESKTOP-M1H1RUL
+2019-06-23 22:26:32.370  INFO LAPTOP-2C5RN20E
 			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
-2019-06-19 11:34:54.562  INFO DESKTOP-M1H1RUL
-			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 16 ms
-2019-06-19 11:35:00.558  INFO DESKTOP-M1H1RUL
-			--- [nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-06-19 11:39:54.556  INFO DESKTOP-M1H1RUL
-			--- [on(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2019-06-19 11:39:54.560  INFO DESKTOP-M1H1RUL
-			--- [on(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-06-19 11:39:54.561  INFO DESKTOP-M1H1RUL
-			--- [on(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-06-19 11:39:54.563  INFO DESKTOP-M1H1RUL
-			--- [on(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
-2019-06-19 11:39:54.566  INFO DESKTOP-M1H1RUL
-			--- [on(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-06-23 22:26:32.398  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 27 ms
+2019-06-23 22:26:40.458  INFO LAPTOP-2C5RN20E
+			--- [nio-8080-exec-6] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-23 22:28:48.363  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-23 22:28:48.366  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-23 22:28:48.369  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-23 22:28:48.369  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-06-23 22:28:48.531  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-06-23 22:28:48.541  INFO LAPTOP-2C5RN20E
+			--- [on(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
