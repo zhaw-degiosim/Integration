@@ -13,3 +13,5 @@ INSERT INTO `user` (`create_date_time`, `first_name`, `last_name`, `mail`, `pass
 
 INSERT INTO `tagcloud`.`projects` (`create_date_time`, `description`, `end_date`, `name`, `start_date`, `update_date_time`, `leader_id`) VALUES ('2019-06-22 16:22:57.000000', 'Initiales Tesprojekt - zum testen', '2029-06-22', 'Initiales Testprojekt', '2019-06-22', '2019-06-22 16:23:18.000000', '1');
 INSERT INTO `tagcloud`.`projects` (`create_date_time`, `description`, `end_date`, `name`, `start_date`, `update_date_time`, `leader_id`) VALUES ('2019-06-23 16:52:33.000000', 'Zweites Testproject', '2029-06-23', 'Zweites Testprojekt', '2019-06-23', '2019-06-23 16:53:14.000000', '2');
+UPDATE `tagcloud`.`projects` SET `employee1`='Hans Muster', `employee2`='Peter Muster' WHERE  `id`=1;
+UPDATE `tagcloud`.`projects` SET `employee1`='Ina Muster', `employee2`='Heidi Muster' WHERE  `id`=2;
