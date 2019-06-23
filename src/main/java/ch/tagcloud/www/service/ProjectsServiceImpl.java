@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import ch.tagcloud.www.model.Projects;
 import ch.tagcloud.www.model.User;
 import ch.tagcloud.www.repository.ProjectsRepository;
+import ch.tagcloud.www.validator.ProjectsValidator;
 
 import java.util.HashSet;
 import java.util.List;
@@ -17,8 +18,9 @@ public class ProjectsServiceImpl implements ProjectsService {
 	
     @Autowired
     private ProjectsRepository projectsRepository;
+   
     
-    private static Logger logger = LogManager.getLogger(UserServiceImpl.class);
+    private static Logger logger = LogManager.getLogger(ProjectsServiceImpl.class);
     
     @Override
     public void save(Projects projects) {
