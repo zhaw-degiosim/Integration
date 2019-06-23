@@ -8,10 +8,10 @@ import ch.tagcloud.www.model.Projects;
 
 public interface ProjectsService {
 	
-/*	@Transactional
+	@Transactional
     void save(Projects Projects);
 
-    
+/*    
     @Transactional
     void update(Projects projects);
     

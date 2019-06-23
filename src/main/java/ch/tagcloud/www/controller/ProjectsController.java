@@ -20,10 +20,10 @@ public class ProjectsController {
 	@GetMapping(value = "/projects")
     public String indexPage(Model model) {
 		
-		logger.info("Find all registered users");
+		logger.info("Find all projects");
 		model.addAttribute("projects", projectsService.findAll());
 		
-		logger.info("Serve template: activities");
+		logger.info("Serve template: projects");
  
         return "projects";
     }

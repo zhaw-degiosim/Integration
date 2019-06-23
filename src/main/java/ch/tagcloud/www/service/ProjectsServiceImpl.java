@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import ch.tagcloud.www.model.Projects;
+import ch.tagcloud.www.model.User;
 import ch.tagcloud.www.repository.ProjectsRepository;
 
 import java.util.HashSet;
@@ -18,6 +19,14 @@ public class ProjectsServiceImpl implements ProjectsService {
     private ProjectsRepository projectsRepository;
     
     private static Logger logger = LogManager.getLogger(UserServiceImpl.class);
+    
+    @Override
+    public void save(Projects projects) {
+    	
+    	logger.info("Save Project: " + projects.getName());
+    	
+        projectsRepository.save(projects);
+    }
     
     @Override
     public List<Projects> findAll() {
