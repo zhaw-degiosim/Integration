@@ -15,23 +15,26 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 * [Installation MariaDB](#installation-mariadb)
 * [Installation HeidiSQL](#installation-heidisql)
 	+ [Konfiguration HeidiSQL](#konfiguration-heidisql)
-	+ [Nutzung HeidiSQL](#nutzung-heidisql)
 * [Importieren des Github-Projekts in Eclipse](#importieren-des-github-projekts-in-eclipse)
 	+ [Vorhandenes Github-Konto](#vorhandenes-github-konto)
 	+ [Kein vorhandenes Github-Konto](#kein-vorhandenes-github-konto)
 * [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)
-
+* [Nutzung HeidiSQL](#nutzung-heidisql)
 
 
 ## Installation Eclipse IDE
 > Um Eclipse für Java zu nutzen, müssen Sie das Java Development Kit (JDK) installiert haben ([Downloadlink Java SE Development Kit 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)).
 
-> Es wird kein Support für andere Entwicklungsumgebungen oder Programmierwerkzeugen ausser Eclipse gewährleistet.
+> Es wird kein Support für andere Entwicklungsumgebungen oder Programmierwerkzeuge ausser Eclipse gewährleistet.
 
 1. Laden Sie Eclipse IDE herunter [Downloadlink Eclipse IDE](https://www.eclipse.org/downloads)
 2. Starten Sie die Installationsdatei
 3. Wählen Sie Eclipse IDE for Java Developers
 4. Klicken Sie auf Install
+5. Starten Sie Eclipse
+6. Navigieren Sie zu *Help* --> *Eclipse Marketplace...*
+7. Suchen Sie nach *Spring Boot*
+8. Installieren Sie *Spring Tools 4 - for Spring Boot (aka Spring Tool Suite 4)*
 
 
 ## Installation MariaDB
@@ -75,18 +78,6 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 3. Geben Sie folgenden Befehl ein: `CREATE DATABASE tagcloud /*!40100 COLLATE 'utf8_bin' */;`
 4. Klicken Sie in der Werkzeugleiste auf den blauen Pfeil (SQL ausführen) bzw. F9
 
-### Nutzung HeidiSQL
-	
-> Die Datenbank *tagcloud* sollte nun in HeidiSQL auf der linken Seite sichtbar sein.
- 
-> Wenn die Datenbank noch keinen Inhalt hat, müssen Sie das Github Projekt zuerst laufen lassen (Siehe Kapitel [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)).
-
-1. Starten Sie HeidiSQL
-2. Verbindung aufbauen
-3. Aktualisieren Sie die Liste mit den Datenbanken und die Datenbank *tagcloud* mit F5 oder Rechtsklick
-4. Klappen Sie die Datenbank *tagcloud* auf und Klicken Sie auf die Tabellen der tagcloud-Datenbank und sehen Sie unter dem Reiter *Daten* den Inhalt der Tabellen
-
-
 ## Importieren des Github-Projekts in Eclipse
 ### Vorhandenes Github-Konto
 > Falls Sie kein Github-Konto haben, gehen Sie zum nächsten Unterkapitel.
@@ -128,3 +119,11 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 6. Um die Tag Cloud zu nutzen, müssen Sie sich einloggen
 7. Melden Sie sich entweder mit der E-Mail *admin@tagcloud.ch* und dem Passwort *admin* an, oder mit dem Testbenutzer *test@tagcloud.ch* und *test*
 8. Nun können Sie die Weboberfläche nutzen
+
+## Nutzung HeidiSQL
+> Wenn die Datenbank noch keinen Inhalt hat, müssen Sie das Github Projekt zuerst laufen lassen (Siehe Kapitel [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)).
+
+1. Starten Sie HeidiSQL
+2. Verbindung aufbauen
+3. Aktualisieren Sie die Liste mit den Datenbanken und die Datenbank *tagcloud* mit F5 oder Rechtsklick
+4. Klappen Sie die Datenbank *tagcloud* auf und Klicken Sie auf die Tabellen der tagcloud-Datenbank und sehen Sie unter dem Reiter *Daten* den Inhalt der Tabellen
