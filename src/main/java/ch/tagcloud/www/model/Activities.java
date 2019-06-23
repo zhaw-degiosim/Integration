@@ -32,10 +32,10 @@ public class Activities {
 	@Column(length = 500, unique=false, nullable = true)
     private String description;
 	
-	@Column(length = 2, unique=true, nullable = false)
+	@Column(length = 2, unique=false, nullable = false)
 	private int timePlaned;
 	
-	@Column(length = 2, unique=true, nullable = false)
+	@Column(length = 2, unique=false, nullable = false)
 	private int timeUsed;
 
 	public Long getId() {

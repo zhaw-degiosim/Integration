@@ -40,7 +40,7 @@
 <!-- Load Custom CSS File -->
 <link rel="stylesheet" href="custom.css">
 
-<title th:utext="#{title.project_new}"></title>
+<title th:utext="#{title.projects_new}"></title>
 </head>
 
 <body>
@@ -59,81 +59,54 @@
 
 
 		<div class="card">
-			<h4 class="card-header" th:utext="#{card.header.project_new}"></h4>
+			<h4 class="card-header" th:utext="#{card.header.projects_new}"></h4>
 			<div class="card-body">
 				<p class="card-text"></p>
-				<form th:action="@{/register}" th:object="${userForm}" method='POST'>			
+				<form th:action="@{/projects_new}" th:object="${projectsForm}" method='POST'>			
 					<div class="form-group row">
-						<label for="salutation" class="col-sm-3 col-form-label"
-							th:utext="#{form.salutation}"><span class="required">
+						<label for="name" class="col-sm-3 col-form-label"
+							th:utext="#{form.projects.name}"><span class="required">
 								*</span></label>
 						<div class="col-sm-9">
-							<select class="form-control" th:field="*{salutation}" required>
-								<option th:value="#{form.salutation.male}" th:utext="#{form.salutation.male}"></option>
-								<option th:value="#{form.salutation.female}" th:utext="#{form.salutation.female}"></option>
-							</select>	 
-								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('salutation')}" th:errors="*{salutation}"></div>
+							<input type="text" class="form-control" th:field="*{name}"
+								th:placeholder="#{form.projects.name.placeholder}" required>
+								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="firstName" class="col-sm-3 col-form-label"
-							th:utext="#{form.firstname}"><span class="required">
-								*</span></label>
+						<label for="description" class="col-sm-3 col-form-label"
+							th:utext="#{form.projects.description}"></label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" th:field="*{firstName}"
-								th:placeholder="#{form.firstname.placeholder}" required>
-								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"></div>
+							<input type="text" class="form-control" th:field="*{description}"
+								th:placeholder="#{form.projects.description.placeholder}">
+								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></div>
 						</div>
 					</div>
 					<div class="form-group row">
-						<label for="lastName" class="col-sm-3 col-form-label"
-							th:utext="#{form.lastname}"><span class="required">
-								*</span></label>
+						<label for="employee1" class="col-sm-3 col-form-label"
+							th:utext="#{form.projects.employee1}"></label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" th:field="*{lastName}"
-								th:placeholder="#{form.lastname.placeholder}" required>
-								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></div>
-						</div>
-					</div>
-					<div class="form-group row">
-						<label for="userMail" class="col-sm-3 col-form-label"
-							th:utext="#{form.mail}"><span class="required"> *</span></label>
-						<div class="col-sm-9">
-							<input type="email" class="form-control" th:field="*{mail}"
-								th:placeholder="#{form.mail.placeholder}" required>
-								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('mail')}" th:errors="*{mail}"></div>
+							<input type="text" class="form-control" th:field="*{employee1}"
+								th:placeholder="#{form.projects.employee1.placeholder}" required>
+								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('employee1')}" th:errors="*{employee1}"></div>
 						</div>
 					</div>
 
 					<div class="form-group row">
 						<label for="password" class="col-sm-3 col-form-label"
-							th:utext="#{form.password}"><span class="required">
-								*</span></label>
+							th:utext="#{form.projects.employee2}"></label>
 						<div class="col-sm-9">
-							<input type="password" class="form-control"
-								th:field="*{password}"
-								th:placeholder="#{form.password.placeholder}" required>
-								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></div>
+							<input type="text" class="form-control"
+								th:field="*{employee2}"
+								th:placeholder="#{form.projects.employee2.placeholder}" required>
+								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('employee2')}" th:errors="*{employee2}"></div>
 						</div>
 					</div>
-
-					<div class="form-group row">
-						<label for="password" class="col-sm-3 col-form-label"
-							th:utext="#{form.passwordConfirm}"><span class="required">
-								*</span></label>
-						<div class="col-sm-9">
-							<input type="password" class="form-control"
-								th:field="*{passwordConfirm}"
-								th:placeholder="#{form.passwordConfirm.placeholder}" required>
-								<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('passwordConfirm')}" th:errors="*{passwordConfirm}"></div>
-						</div>
-					</div>
-
 
 					<div class="row">
 						<div class="col-sm-3">
 							<button type="submit" class="btn btn-primary"
-								th:utext="#{form.register.button.add}"></button>
+								th:utext="#{form.projects.button.add}"></button>
 
 						</div>
 						<div class="col-sm-3">
@@ -143,7 +116,7 @@
 
 						</div>
 						<div class="col-sm-3">
-							<a th:href="@{/index}" class="btn btn-secondary" role="button"
+							<a th:href="@{/projects}" class="btn btn-secondary" role="button"
 								aria-pressed="true" th:utext="#{form.register.button.cancel}"></a>
 						</div>
 					</div>

@@ -20,10 +20,10 @@ public class ProjectsController {
 	
 	@Autowired
 	private ProjectsService projectsService;
-	
+/*	
     @Autowired
-    private ProjectsValidator projectValidator;
-	
+    private ProjectsValidator projectsValidator;
+*/	
 	private static Logger logger = LogManager.getLogger(ProjectsController.class);
 	
 	@GetMapping(value = "/projects")
@@ -53,14 +53,14 @@ public class ProjectsController {
     	
     	logger.info("Validate project form for: " + projectsForm.getName());
     	
-    	projectValidator.validate(projectsForm, bindingResult);
+/*    	projectsValidator.validate(projectsForm, bindingResult);
 
         if (bindingResult.hasErrors()) {
         	
-        	logger.info("Error in userForm. Return to register. User: " + projectsForm.getName());
+        	logger.info("Error in projectsForm. Return to Projects. Project: " + projectsForm.getName());
         	
             return "projects_new";
-        }
+        } */
     	
         logger.info("Save User: " + projectsForm.getName());
         

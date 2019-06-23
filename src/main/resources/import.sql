@@ -15,3 +15,7 @@ INSERT INTO `tagcloud`.`projects` (`create_date_time`, `description`, `end_date`
 INSERT INTO `tagcloud`.`projects` (`create_date_time`, `description`, `end_date`, `name`, `start_date`, `update_date_time`, `leader_id`) VALUES ('2019-06-23 16:52:33.000000', 'Zweites Testproject', '2029-06-23', 'Zweites Testprojekt', '2019-06-23', '2019-06-23 16:53:14.000000', '2');
 UPDATE `tagcloud`.`projects` SET `employee1`='Hans Muster', `employee2`='Peter Muster' WHERE  `id`=1;
 UPDATE `tagcloud`.`projects` SET `employee1`='Ina Muster', `employee2`='Heidi Muster' WHERE  `id`=2;
+
+INSERT INTO `tagcloud`.`activities` (`create_date_time`, `description`, `name`, `time_planed`, `time_used`, `update_date_time`) VALUES ('2019-06-23 22:22:52.000000', 'Aktivität 1', 'Aktivität1', '2', '1', '2019-06-23 22:23:15.000000');
+INSERT INTO `tagcloud`.`activities` (`id`, `create_date_time`, `description`, `name`, `time_planed`, `time_used`, `update_date_time`) VALUES ('2', '2019-06-23 22:23:31.000000', 'Aktivität 2', 'Aktivität2', '3', '2', '2019-06-23 22:23:52.000000');
+

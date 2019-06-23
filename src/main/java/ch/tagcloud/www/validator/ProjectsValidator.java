@@ -11,25 +11,30 @@ import ch.tagcloud.www.model.Projects;
 
 import ch.tagcloud.www.service.ProjectsService;
 
+public class ProjectsValidator implements Validator {
 
+	@Autowired
+	private ProjectsService projectService;
 
-
-public class ProjectsValidator {
-	
-    @Autowired
-    private ProjectsService projectService;
-    
-    private static Logger logger = LogManager.getLogger(ProjectsValidator.class);
-
-    @Override
-    public boolean supports(Class<?> aClass) {
-        return Projects.class.equals(aClass);
-    }
+	private static Logger logger = LogManager.getLogger(ProjectsValidator.class);
 
 	@Override
-    public void validate(Object o, Errors errors) {
+	public boolean supports(Class<?> aClass) {
+		return Projects.class.equals(aClass);
+	}
+
+	@Override
+	public void validate(Object o, Errors errors) {
 		Projects projects = (Projects) o;
-		
+
+		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "validate.notempty");
+		if (projects.getName().length() > 100) {
+
+			logger.info("Projektname ist zu lang " + projects.getName());
+
+			errors.rejectValue("name", "validation.projectForm.name.length");
+		}
+
 	}
 
 }
