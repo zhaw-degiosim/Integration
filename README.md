@@ -23,7 +23,9 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 
 
 ## Installation Eclipse IDE
-> Um Eclipse für Java zu nutzen, müssen Sie das Java Development Kit (JDK) installiert haben. [Downloadlink Java SE Development Kit 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
+> Um Eclipse für Java zu nutzen, müssen Sie das Java Development Kit (JDK) installiert haben ([Downloadlink Java SE Development Kit 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)).
+
+> Es wird kein Support für andere Entwicklungsumgebungen oder Programmierwerkzeugen ausser Eclipse gewährleistet.
 
 1. Laden Sie Eclipse IDE herunter [Downloadlink Eclipse IDE](https://www.eclipse.org/downloads)
 2. Starten Sie die Installationsdatei
@@ -39,21 +41,46 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 3. License Agreement akzepiteren, Next
 4. Custom Setup mit Standardeinstellungen, Next
 5. Entfernen Sie den Hacken bei *Modify password for database user 'root'* und lassen Sie das Passwort-Feld leer
-6. Übernehmen Sie die Standardeinstellungen für Service Name, TCP port etc. und fahren Sie mit Next fort.
-7. Next, Sie müssen das Feedback plugin nicht aktivieren.
+6. Übernehmen Sie die Standardeinstellungen für Service Name, TCP port etc. und fahren Sie mit Next fort
+7. Next, Sie müssen das Feedback plugin nicht aktivieren
 8. Install
 
 ## Installation HeidiSQL
-> HeidiSQL ermöglicht den direkten Zugriff auf die Datenbank. Es ist keine Vorausseztung für das Ausführen der Tag Cloud. Wenn Sie die Datenbank hinter der Weboberfläche begutachten wollen, installieren Sie HeidiSQL.
+> HeidiSQL ermöglicht den direkten Zugriff auf die Datenbank. Es ist keine Vorausseztung für das Ausführen der Webapplikation. Wenn Sie die Tabellen der Datenbank hinter der Weboberfläche begutachten wollen, installieren Sie HeidiSQL.
 
-1. Laden Sie die Installationsdatei herunter [Downloadlink HeidiSQL](https://www.heidisql.com/download.php) (Sie benötigenden Installer, 32/64 bit combinded)
+1. Laden Sie die Installationsdatei herunter [Downloadlink HeidiSQL](https://www.heidisql.com/download.php) (Sie benötigenden *Installer, 32/64 bit combinded*)
 2. Starten Sie die Installationsdatei
 3. AkzeptierenSie die Lizenzvereinbarung, Weiter
-4. Übernehmen Sie die Standardeinstellung, Weiter
+4. Übernehmen Sie die Standardeinstellungen, Weiter
 5. Installieren
 
 ### Nutzung HeidiSQL
-sdafsdf
+> Wenn Sie bei der Installation von MariaDB eine von dieser Anleitung abweichende Konfiguration gewählt haben (z.B. root Passwort oder Port), müssen Sie dies beim Verbindungsaufbau mit HeidiSQL berücksichtigen. 
+
+1. Starten Sie HeidiSQL
+2. Verbindung mit lokaler Datenbank aufbauen
+	1. Überprüfen Sie die Standardeinstellungen
+		1. Verbindungstyp: MariaDB or MySQL (TCP/IP)
+		2. Hostname / IP: 127.0.0.1
+		3. Benutzername: root
+		4. Passwort: *leer lassen*
+		5. Port: 3306
+	2. Öffnen
+
+> Der folgende Abschnitt ist nur einmalig nötig. Da die Datenbank nicht über Github synchronisiert wird, müssen Sie auf Ihrem PC eine lokale Datenbank für die Tag Cloud erstellen.
+
+1. Starten Sie HeidiSQL
+2. Wechseln Sie zum Reiter *Abfrage* (alternativ *Datei* --> *Neuer Query Tab*)
+3. Geben Sie folgenden Befehl ein: `CREATE DATABASE tagcloud /*!40100 COLLATE 'utf8_bin' */;`
+4. Klicken Sie in der Werkzeugleiste auf den blauen Pfeil (SQL ausführen) bzw. F9
+	
+> Die Datenbank *tagcloud* sollte nun in HeidiSQL auf der linken Seite sichtbar sein.
+ 
+> Wenn die Datenbank noch keinen Inhalt hat, müssen Sie das Github Projekt zuerst laufen lassen (Siehe Kapitel [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)).
+
+1. Aktualisieren Sie die Liste mit den Datenbanken und die Datenbank *tagcloud* mit F5 oder Rechtsklick
+2. Klappen Sie die Datenbank *tagcloud* auf und Klicken Sie auf die Tabellen der tagcloud-Datenbank und sehen Sie unter dem Reiter *Daten* den Inhalt der Tabellen
+
 
 ## Importieren des Github-Projekts in Eclipse
 ### Vorhandenes Github-Konto
