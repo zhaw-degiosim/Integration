@@ -2,18 +2,19 @@
 
 **Gruppe 13**
 
-> Autoren: nussbluk, furterap, griglfab, degiosim
+Autoren: nussbluk, furterap, griglfab, degiosim
 
-> Abgabedatum: 23.06.2019
+Abgabedatum: 23.06.2019
 
 Dieses Projekt entstand im Rahmen des Moduls **Integration (2019-FS)** an der ZHAW School of Management and Law.
 
-In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schritt erklärt.
+In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schritt erklärt. **Die in dieser Anleitung beschriebenen Installationen und Konfigurationen sind voraussetzung für das Ausführen der Webapplikation.**
 
 ## Inhaltsverzeichnis
 * [Installation Eclipse IDE](#installation-eclipse-ide)
 * [Installation MariaDB](#installation-mariadb)
 * [Installation HeidiSQL](#installation-heidisql)
+	+ [Konfiguration HeidiSQL](#konfiguration-heidisql)
 	+ [Nutzung HeidiSQL](#nutzung-heidisql)
 * [Importieren des Github-Projekts in Eclipse](#importieren-des-github-projekts-in-eclipse)
 	+ [Vorhandenes Github-Konto](#vorhandenes-github-konto)
@@ -46,7 +47,7 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 8. Install
 
 ## Installation HeidiSQL
-> HeidiSQL ermöglicht den direkten Zugriff auf die Datenbank. Es ist keine Vorausseztung für das Ausführen der Webapplikation. Wenn Sie die Tabellen der Datenbank hinter der Weboberfläche begutachten wollen, installieren Sie HeidiSQL.
+> HeidiSQL ermöglicht den direkten Zugriff auf die Datenbank.
 
 1. Laden Sie die Installationsdatei herunter [Downloadlink HeidiSQL](https://www.heidisql.com/download.php) (Sie benötigenden *Installer, 32/64 bit combinded*)
 2. Starten Sie die Installationsdatei
@@ -54,7 +55,7 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 4. Übernehmen Sie die Standardeinstellungen, Weiter
 5. Installieren
 
-### Nutzung HeidiSQL
+### Konfiguration HeidiSQL
 > Wenn Sie bei der Installation von MariaDB eine von dieser Anleitung abweichende Konfiguration gewählt haben (z.B. root Passwort oder Port), müssen Sie dies beim Verbindungsaufbau mit HeidiSQL berücksichtigen. 
 
 1. Starten Sie HeidiSQL
@@ -73,13 +74,17 @@ In diesem Dokument wird die Installation dieses Github-Projekts Schritt-für-Schr
 2. Wechseln Sie zum Reiter *Abfrage* (alternativ *Datei* --> *Neuer Query Tab*)
 3. Geben Sie folgenden Befehl ein: `CREATE DATABASE tagcloud /*!40100 COLLATE 'utf8_bin' */;`
 4. Klicken Sie in der Werkzeugleiste auf den blauen Pfeil (SQL ausführen) bzw. F9
+
+### Nutzung HeidiSQL
 	
 > Die Datenbank *tagcloud* sollte nun in HeidiSQL auf der linken Seite sichtbar sein.
  
 > Wenn die Datenbank noch keinen Inhalt hat, müssen Sie das Github Projekt zuerst laufen lassen (Siehe Kapitel [Nutzung der Tag Cloud Webapplikation](#nutzung-der-tag-cloud-webapplikation)).
 
-1. Aktualisieren Sie die Liste mit den Datenbanken und die Datenbank *tagcloud* mit F5 oder Rechtsklick
-2. Klappen Sie die Datenbank *tagcloud* auf und Klicken Sie auf die Tabellen der tagcloud-Datenbank und sehen Sie unter dem Reiter *Daten* den Inhalt der Tabellen
+1. Starten Sie HeidiSQL
+2. Verbindung aufbauen
+3. Aktualisieren Sie die Liste mit den Datenbanken und die Datenbank *tagcloud* mit F5 oder Rechtsklick
+4. Klappen Sie die Datenbank *tagcloud* auf und Klicken Sie auf die Tabellen der tagcloud-Datenbank und sehen Sie unter dem Reiter *Daten* den Inhalt der Tabellen
 
 
 ## Importieren des Github-Projekts in Eclipse
